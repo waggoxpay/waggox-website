@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+
+
+
+.img-centered {
+  margin: 0 auto;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: $c-primary;
+}
+
+::selection {
+  text-shadow: none;
+  background: $c-primary;
+}
+
+img::selection {
+  background: 0 0;
+}
+
+img::-moz-selection {
+  background: 0 0;
+}
+
+
+
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: $c-primary;
+}
+.text-no-margin {
+  margin:0;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-bright {
+  color:#fff;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+
+  &.large {
+      font-size: 16px;
+  }
+
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: $c-primary-dark;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: $c-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+
+    font-weight: 700;
+}

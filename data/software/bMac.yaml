@@ -1,0 +1,10 @@
+id: mac
+version: Litecoin Core 0.16.3
+
+img: apple
+isCompiled: 1
+isMac: 1
+
+uri: https://download.litecoin.org/litecoin-0.16.3/osx/litecoin-0.16.3-osx.dmg
+
+gpg: https://download.litecoin.org/litecoin-0.16.3/osx/litecoin-0.16.3-osx.dmg.asc

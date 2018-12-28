@@ -1,0 +1,76 @@
+.if-os-known {
+  display:none;
+  visibility: hidden;
+}
+.os-known .if-os-known {
+  display:block;
+  visibility: visible;
+}
+
+.if-os-windows, .if-os-mac {
+  display:none;
+}
+
+.os-windows, .os-mac {
+  display:block;
+}
+
+
+header {
+  text-align: center;
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(../img/header-bg.jpg);
+  background-position: 60% center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+  margin-bottom: 25px;
+
+  font-size: 22px;
+  font-weight:400;
+
+  line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight:100;
+  font-size: 50px;
+
+  line-height: 50px;
+}
+
+@media(min-width:768px) {
+  header .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+  }
+
+  header .intro-text .intro-lead-in {
+      margin-bottom: 25px;
+
+      font-size: 40px;
+
+      line-height: 40px;
+  }
+
+  header .intro-text .intro-heading {
+      margin-bottom: 50px;
+      text-transform: uppercase;
+
+      font-size: 60px;
+      line-height: 75px;
+  }
+}

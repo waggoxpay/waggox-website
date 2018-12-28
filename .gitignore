@@ -1,0 +1,9 @@
+.DS_Store
+public/
+node_modules/
+npm-debug.log
+
+// compiled files
+themes/hugo-litecoin-theme/static/css/
+
+config.toml

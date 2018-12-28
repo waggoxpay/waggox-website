@@ -1,0 +1,12 @@
+id: win
+version: Waggox Core 1.0.0.0
+
+img: windows
+isCompiled: 1
+isWallet: 1
+isWindows: 1
+
+
+uri: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/window64-qt.zip
+bit32: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/window32-cli.zip
+bit64: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/window-cli64.zip

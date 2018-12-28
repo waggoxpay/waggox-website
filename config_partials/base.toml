@@ -1,0 +1,48 @@
+# Site settings
+baseurl = "https://stevesloan.github.io"
+
+
+theme = "hugo-litecoin-theme"
+googleAnalytics = ""
+ignoreFiles = [ "\\.scss$", "\\.sass$" ]
+
+# Link custom assets relative to /static
+custom_css = []
+custom_js  = []
+
+# Possibility to disable external/additional fonts
+# Exception: Fontawesome
+disableFonts = false
+
+
+[Taxonomies]
+tag = "tags"
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[params]
+description = "Waggox is a cryptocurrency that enables instant payments to anyone in the world and that can be efficiently mined with consumer-grade hardware."
+
+  [params.downloadCommon]
+    releaseNotesURL = "https://blog.waggox.online/waggox-core-v1.0.0.0"
+    upgradeNotesURL = "https://waggox.online/Upgrading_Waggox"
+
+  [params.footerCommon]
+    [[params.footerCommon.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/waggox"
+
+    [[params.footerCommon.social]]
+      icon = "fa-send"
+      link = "https://web.telegram.org/#/im?p=@waggox"
+
+    [[params.footerCommon.social]]
+      icon = "fa-reddit-alien"
+      link = "https://www.reddit.com/r/waggox/"
+
+
+
+
+[Languages]

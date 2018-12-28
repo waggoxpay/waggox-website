@@ -1,0 +1,11 @@
+id: source
+version: Waggox Core GitHub
+
+img: github-alt
+
+uri: https://github.com/waggoxpay/waggox
+isCompiled: 0
+
+android: 
+
+gpgPublicKey: 

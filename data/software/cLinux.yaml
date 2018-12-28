@@ -1,0 +1,12 @@
+id: linux
+version: Waggox Core 1.0.0.0
+
+img: linux
+isCompiled: 1
+isLinux: 1
+
+uri: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/waggox-cli.tar.gz
+
+gpg: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/waggox-qt.tar.gz
+bit32: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/waggox-qt.tar.gz
+bit64: https://github.com/waggoxpay/waggox/releases/download/v1.0.0/waggox-qt.tar.gz
